@@ -3,7 +3,7 @@
 
 > 
 >  demo video: 
->  ![image](https://github.com/tzuhua21/dog-breed-application/blob/main/EEP_523_final_project_demo_video.gif)
+>  ![image]([https://github.com/tzuhua21/dog-breed-application/blob/main/EEP_523_final_project_demo_video.gif](https://github.com/tzuhua21/dog-breed-application/blob/main/523_final_demo.gif))
 
 [video link](https://www.youtube.com/shorts/WuMek0aybwg)
 

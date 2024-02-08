@@ -35,15 +35,13 @@ The following dependencies are required for this app to run:
 
 * React
 
-* AWS S3
+* aws-sdk@2.1381.0 for (AWS S3, AWS Lambda, AWS Rekognition)
 
-* AWS Lambda
-
-* AWS Rekognition
+* react-native-community/blur@4.3.0
 
 * React Native components such as View, Text, TextInput, TouchableOpacity, and StyleSheet
 
-* ImagePicker for launching the camera and choosing image from device.
+* react-native-image-picker@5.3.1 for launching the camera and choosing image from device.
 
 * Geolocation from react-native-geolocation-service for accessing the device's GPS data
 
@@ -56,11 +54,14 @@ The following dependencies are required for this app to run:
 
 The app provides the following features:
 
-* Image Capture and Selection: The application allows users to take photos or select images from their device's gallery. It integrates with the device's camera and image library using the react-native-image-picker library.
+* #### Image Capture and Selection:
+  The application allows users to take photos or select images from their device's gallery. It integrates with the device's camera and image library using the react-native-image-picker library.
 
-*  Image Processing and Recognition: The captured or selected images are processed using image recognition algorithms. The application uploads the images to an AWS S3 bucket and triggers an AWS Lambda function (523finalpython) for breed recognition. The AWS SDK is utilized for S3 integration (aws-sdk) and invoking the Lambda function.
+*  #### Image Processing and Recognition:
+  The captured or selected images are processed using image recognition algorithms. The application uploads the images to an AWS S3 bucket and triggers an AWS Lambda function (523finalpython) for breed recognition. The AWS SDK is utilized for S3 integration (aws-sdk) and invoking the Lambda function.
 
-*  User Interface: The application provides an intuitive and visually appealing user interface. It includes features like buttons for capturing/selecting images, options for blurring and undoing image blur, recognizing dog breeds, retrieving weather information, and saving photos. The UI components are implemented using React Native's View, TouchableOpacity, Text, and Image
+*  #### User Interface:
+ The application provides an intuitive and visually appealing user interface. It includes features like buttons for capturing/selecting images, options for blurring and undoing image blur, recognizing dog breeds, retrieving weather information, and saving photos. The UI components are implemented using React Native's View, TouchableOpacity, Text, and Image
 
 * The user can enter a city name to get the current weather information for that city.
 

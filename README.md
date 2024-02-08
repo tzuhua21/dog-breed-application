@@ -3,8 +3,7 @@
 
 > 
 >  demo video: 
->  ![EEP_523_final_project_demo_video](https://hackmd.io/_uploads/rkCr27Mja.gif)
-
+>  ![image](https://github.com/tzuhua21/dog-breed-application/blob/main/EEP_523_final_project_demo_video.gif)
 [video link](https://www.youtube.com/shorts/WuMek0aybwg)
 
 ## Implementation
